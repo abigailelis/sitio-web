@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(53, 65, 49);
+}
+.encabezado{
+    display: flex;
+    background-color:rgba(39, 39, 39, 0.5);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}    
+.divlogo{
+    display: flex;
+    align-items: center;
+    width:15%; 
+    justify-content: center;
+}
+
+#logo{
+    width: 45%;
+}
+.titulo{
+    font-family:system-ui, 'Segoe UI','Open Sans', sans-serif;
+    font-weight: bold;
+    color:rgb(251, 251, 251);
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.horizontal{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(251, 251, 251);
+    font-size: 18px; 
+}
+
+.li-horiz{
+    padding-right: 10px;
+    padding-left: 10px;
+    list-style: none;
+    cursor: pointer;  
+    
+    
+}
+
+li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+} 
+
+.contenedor{
+    display:flex;   
+}
+
+.navegador{
+    background-image: url("../../sitio-web/images/covid2.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:20%;
+    margin-right: 5px;
+    display:flex;
+}
+
+.menu-vertical{
+    justify-content: flex-start;
+    list-style: none;
+    line-height: 1.5;
+    padding-left: 5%;
+}
+
+.li-vertical{
+    cursor: pointer;    
+    color:rgb(255, 255, 255); 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px; 
+}
+
+
+.contenido{
+    background-color:rgba(39, 39, 39, 0.8);
+    width:80%;
+    padding: 20px;
+    justify-content: space-between;    
+}
+h1{
+    color:rgb(202, 206, 200); 
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+}
+#home{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;  
+}
+
+span{
+    background-color:rgba(30, 105, 0, .5); 
+    font-weight: bold;
+    color:rgb(251, 251, 251);
+    padding-left: 3px;
+}
+.texto{
+    color:rgb(238, 238, 242); 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px; 
+    text-align: justify;
+}
+#tips{
+    color:rgb(216, 216, 216); 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px; 
+    text-align: center;
+
+}
+p.block-text{
+ 
+    border: 3px solid red;;  
+   
+}
+.tips-superv{
+    display:flex;
+}
+ol.lista{
+    font-size: 16px;
+}
+.imagenes-left{
+    width: 650px;
+    height: 255px;
+}
+
+
+h6{
+    background-color:rgba(208, 208, 208, 0.5);
+    text-align: center;
+    padding:2px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(251, 251, 251);
+    position:sticky;
+}
